@@ -1,0 +1,550 @@
+/**
+ * Halkbank Payment Gateway - Modern Admin Settings Styles
+ * Transforms the default WooCommerce table layout into a modern card-based design
+ */
+
+/* Only apply to Halkbank settings page */
+.woocommerce_page_wc-settings .halkbank-settings-wrapper {
+    max-width: 900px;
+}
+
+/* Section Cards */
+.halkbank-settings-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+    margin-bottom: 24px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.halkbank-settings-section:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Headers */
+.halkbank-section-header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+    color: #fff;
+    padding: 16px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: none;
+}
+
+.halkbank-section-header .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.9;
+}
+
+.halkbank-section-header .section-description {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin-left: auto;
+}
+
+/* Section Content */
+.halkbank-section-content {
+    padding: 0;
+}
+
+.halkbank-section-content table.form-table {
+    margin: 0;
+}
+
+.halkbank-section-content table.form-table tr {
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.15s ease;
+}
+
+.halkbank-section-content table.form-table tr:last-child {
+    border-bottom: none;
+}
+
+.halkbank-section-content table.form-table tr:hover {
+    background-color: #f8fafc;
+}
+
+.halkbank-section-content table.form-table th {
+    padding: 18px 20px;
+    width: 220px;
+    vertical-align: top;
+    font-weight: 500;
+    color: #374151;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.halkbank-section-content table.form-table td {
+    padding: 18px 20px;
+    vertical-align: top;
+}
+
+/* Form Fields Styling */
+.halkbank-section-content table.form-table input[type="text"],
+.halkbank-section-content table.form-table input[type="password"],
+.halkbank-section-content table.form-table input[type="number"],
+.halkbank-section-content table.form-table textarea,
+.halkbank-section-content table.form-table select {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 14px;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+}
+
+.halkbank-section-content table.form-table input[type="text"]:focus,
+.halkbank-section-content table.form-table input[type="password"]:focus,
+.halkbank-section-content table.form-table input[type="number"]:focus,
+.halkbank-section-content table.form-table textarea:focus,
+.halkbank-section-content table.form-table select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    outline: none;
+}
+
+.halkbank-section-content table.form-table textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* Select2/Enhanced Select Override */
+.halkbank-section-content .select2-container {
+    max-width: 400px !important;
+}
+
+.halkbank-section-content .select2-container--default .select2-selection--single {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    height: 42px;
+    padding: 6px 8px;
+}
+
+.halkbank-section-content .select2-container--default .select2-selection--single:focus,
+.halkbank-section-content .select2-container--default.select2-container--focus .select2-selection--single {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.halkbank-section-content .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 28px;
+    color: #374151;
+}
+
+.halkbank-section-content .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+}
+
+/* Checkbox Styling */
+.halkbank-section-content table.form-table input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 2px solid #d1d5db;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.halkbank-section-content table.form-table input[type="checkbox"]:checked {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.halkbank-section-content table.form-table input[type="checkbox"] + label {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #4b5563;
+}
+
+/* Description Tips */
+.halkbank-section-content .woocommerce-help-tip {
+    margin-left: 8px;
+}
+
+.halkbank-section-content .description {
+    color: #6b7280;
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+/* Password Field Toggle */
+.halkbank-password-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+.halkbank-password-wrapper input[type="password"],
+.halkbank-password-wrapper input[type="text"] {
+    padding-right: 45px;
+}
+
+.halkbank-password-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #9ca3af;
+    transition: color 0.15s ease;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.halkbank-password-toggle:hover {
+    color: #4b5563;
+}
+
+/* File Upload Fields */
+.halkbank-section-content input[type="file"] {
+    padding: 8px;
+    border: 2px dashed #d1d5db;
+    border-radius: 6px;
+    background: #f9fafb;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.halkbank-section-content input[type="file"]:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+/* Enable/Disable Toggle - Special Styling */
+.halkbank-enable-toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-bottom: 2px solid #86efac;
+}
+
+.halkbank-enable-toggle.disabled {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-bottom-color: #fca5a5;
+}
+
+.halkbank-enable-toggle label {
+    font-weight: 600;
+    color: #166534;
+}
+
+.halkbank-enable-toggle.disabled label {
+    color: #991b1b;
+}
+
+/* Status Indicator Badge */
+.halkbank-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.halkbank-status-badge.enabled {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.halkbank-status-badge.disabled {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* Collapsible Sections */
+.halkbank-section-header.collapsible {
+    cursor: pointer;
+    user-select: none;
+}
+
+.halkbank-section-header.collapsible::after {
+    content: '\f142';
+    font-family: dashicons;
+    margin-left: auto;
+    transition: transform 0.2s ease;
+}
+
+.halkbank-section-header.collapsible.collapsed::after {
+    transform: rotate(-90deg);
+}
+
+.halkbank-section-content.collapsed {
+    display: none;
+}
+
+/* Store Key Warning */
+#store_key_warn {
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-top: 8px;
+    font-size: 12px !important;
+    color: #92400e !important;
+}
+
+/* Logo Preview */
+.halkbank-logo-preview {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #f3f4f6;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+}
+
+.halkbank-logo-preview img {
+    max-width: 150px;
+    max-height: 60px;
+    display: block;
+}
+
+/* Remove Logo Button */
+.halkbank-remove-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+    padding: 6px 12px;
+    background: #fee2e2;
+    color: #991b1b;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.halkbank-remove-logo:hover {
+    background: #fecaca;
+}
+
+/* Page Header */
+.halkbank-page-header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+    color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.halkbank-page-header-logo {
+    width: 64px;
+    height: 64px;
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.halkbank-page-header-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.halkbank-page-header-content h1 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.halkbank-page-header-content p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+/* Quick Stats */
+.halkbank-quick-stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.halkbank-stat-card {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+.halkbank-stat-card .stat-label {
+    font-size: 12px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.halkbank-stat-card .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+/* Save Button Enhancement */
+.woocommerce-save-button {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px 32px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3) !important;
+    transition: all 0.2s ease !important;
+}
+
+.woocommerce-save-button:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%) !important;
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.4) !important;
+    transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .halkbank-page-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .halkbank-quick-stats {
+        flex-direction: column;
+    }
+
+    .halkbank-section-content table.form-table th,
+    .halkbank-section-content table.form-table td {
+        display: block;
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    .halkbank-section-content table.form-table th {
+        padding-bottom: 4px;
+    }
+
+    .halkbank-section-content table.form-table td {
+        padding-top: 4px;
+    }
+}
+
+/* Animation for sections appearing */
+@keyframes halkbank-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.halkbank-settings-section {
+    animation: halkbank-fade-in 0.3s ease forwards;
+}
+
+.halkbank-settings-section:nth-child(1) { animation-delay: 0.05s; }
+.halkbank-settings-section:nth-child(2) { animation-delay: 0.1s; }
+.halkbank-settings-section:nth-child(3) { animation-delay: 0.15s; }
+.halkbank-settings-section:nth-child(4) { animation-delay: 0.2s; }
+.halkbank-settings-section:nth-child(5) { animation-delay: 0.25s; }
+.halkbank-settings-section:nth-child(6) { animation-delay: 0.3s; }
+.halkbank-settings-section:nth-child(7) { animation-delay: 0.35s; }
+.halkbank-settings-section:nth-child(8) { animation-delay: 0.4s; }
+
+/* Override old border styles */
+tr.override_language,
+tr.use_recaptcha,
+tr.debug_mode,
+tr.fiscalization_enable,
+tr.enabled,
+tr.store_type,
+tr.fiscalization_tax_no {
+    border: none !important;
+}
+
+/* Tooltip styling */
+.halkbank-tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 6px;
+    cursor: help;
+}
+
+.halkbank-tooltip .dashicons {
+    color: #9ca3af;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.halkbank-tooltip:hover .dashicons {
+    color: #6b7280;
+}
+
+/* Field Groups within sections */
+.halkbank-field-group {
+    background: #f9fafb;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 16px;
+}
+
+.halkbank-field-group-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Section specific colors */
+.halkbank-section-credentials .halkbank-section-header {
+    background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+}
+
+.halkbank-section-transaction .halkbank-section-header {
+    background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+}
+
+.halkbank-section-orders .halkbank-section-header {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+.halkbank-section-advanced .halkbank-section-header {
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+.halkbank-section-recaptcha .halkbank-section-header {
+    background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+}

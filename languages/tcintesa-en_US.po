@@ -1,0 +1,1530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce nets pay intesa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-18 09:07+0000\n"
+"PO-Revision-Date: 2023-11-10 10:09+0000\n"
+"Last-Translator: Ivan Milic <admin@yoursite.com>\n"
+"Language-Team: English (United States)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: index.php\n"
+"Language: en_US\n"
+"X-Loco-Version: 2.3.1; wp-5.3.8"
+
+#: fiscalization_listing.php:405
+#, php-format
+msgid "%d orders synchronised: %s"
+msgstr ""
+
+#: np.php:1583
+msgid "(WARNING: auto-cancel by WooCommerce!)"
+msgstr ""
+
+#: np.php:1090
+msgid ", amount"
+msgstr ""
+
+#: np.php:979 np.php:983 np.php:1122 np.php:1126 np.php:1317 np.php:1321
+msgid ", of originaly payed: "
+msgstr ""
+
+#: np.php:889 np.php:1132
+msgid ", of previously reserved: "
+msgstr ""
+
+#: fields.php:485
+msgid "...excluded roles..."
+msgstr ""
+
+#: fields.php:212
+#, php-format
+msgid ""
+"3D store type requires PCI DSS sertificate. You can use HolestPay plugin "
+"instead of certifying your site. Swap to PCI DSS certified HolestPay payment "
+"system %s if you want to have card input on your checkout page, "
+"subscriptions and more...."
+msgstr ""
+
+#: np.php:1917
+msgid ""
+"<p style='color:red;'>ERROR: Data loss due local 302 redirect.<br/>302 "
+"redirect converted a POST request to a GET request losing required post data."
+" Secondary method of getting transaction data using the API also failed.<br/>"
+"Please disable redirection for POST requests targeting this page or use 307! "
+"Contact site/server administrator!</p>"
+msgstr ""
+
+#: fiscalization.php:2093
+msgid ""
+"@ at start means No. of refund document number (that will be created on fly) "
+"for given document invoice tax no."
+msgstr ""
+
+#: fields.php:543
+msgid "_sku is for SKU"
+msgstr ""
+
+#: fiscalization.php:1443 fiscalization.php:1702 fiscalization.php:2101
+#: npcalls.php:1654
+msgid "Advance"
+msgstr ""
+
+#: np.php:793 np.php:1313
+msgid "Amount"
+msgstr ""
+
+#: np.php:876
+msgid "Amount captured"
+msgstr ""
+
+#: np.php:708 np.php:1719 np.php:1755
+msgid "Amount in payment currency"
+msgstr ""
+
+#: np.php:1465
+msgid "API key"
+msgstr ""
+
+#: fields.php:125
+msgid "API URL"
+msgstr "API URL"
+
+#: fields.php:127
+msgid ""
+"API URL for status check, make sure to put production url (example: https:"
+"//activa.eway2pay.com/fim/api) for real store, not test (provided by bank "
+"system)."
+msgstr ""
+
+#: fields.php:104 fields.php:112
+msgid "API user is created and managed on the merchmant portal (at bank)"
+msgstr ""
+
+#: fields.php:102
+msgid "API User Name"
+msgstr ""
+
+#: fields.php:110
+msgid "API User Password"
+msgstr ""
+
+#: np.php:1529
+msgid "As in order"
+msgstr ""
+
+#: fields.php:150
+msgid "Authorization (simple immediate CC charge)"
+msgstr ""
+
+#: np.php:702 np.php:1715 np.php:1745
+msgid "Authorization Code"
+msgstr ""
+
+#: fields.php:162
+msgid "Auto Post-Authorization(Capture) after days"
+msgstr ""
+
+#: fields.php:254
+msgid "Auto-submit payment form"
+msgstr ""
+
+#: fiscalization.php:2522
+msgid "Bad or no API key"
+msgstr ""
+
+#: fiscalization.php:2588
+msgid "BAD RESPONSE"
+msgstr ""
+
+#: fields.php:222
+msgid "Bank logo"
+msgstr ""
+
+#: fiscalization.php:2063
+msgid "Buyer TIN"
+msgstr ""
+
+#: fiscalization.php:2530
+msgid "Buyer TIN is required for"
+msgstr ""
+
+#: fields.php:491
+msgid ""
+"By default automation will not trigger in backend. If you need it while "
+"working in backend enable it. This may be needed when interating with other "
+"plugins."
+msgstr ""
+
+#: np.php:1094
+msgid "Can not query"
+msgstr ""
+
+#: np.php:2742
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: fields.php:371
+msgid "Cancel orders for abandoned payments(Cancel button on HPP page)"
+msgstr ""
+
+#: npcalls.php:1677
+msgid ""
+"Cancel the dokument (only in case of the bad document creation)? If you just "
+"want to make refund document do not use this option - use regular refund "
+"option!"
+msgstr ""
+
+#: fiscalization.php:2129 npcalls.php:1676
+msgid "Cancelation"
+msgstr ""
+
+#: npcalls.php:1929
+msgid "Capture (get reserved money from customer credit card)"
+msgstr ""
+
+#: npcalls.php:1857 npcalls.php:1929
+msgid "Capture (PostAutorization)"
+msgstr ""
+
+#: np.php:1183
+msgid "Capture / PostAuthorize"
+msgstr ""
+
+#: np.php:1181
+msgid "Capture amount (in payment currency)"
+msgstr ""
+
+#: np.php:1070
+msgid "Captured (Post-Authorizated), amount"
+msgstr ""
+
+#: fields.php:200
+msgid "CC input (site must be PCI DSS compliant)"
+msgstr ""
+
+#: fields.php:229
+msgid "CC logo"
+msgstr ""
+
+#: np.php:2668
+msgid "CC Number"
+msgstr ""
+
+#: fields.php:203
+msgid "Check this to enable CC input form"
+msgstr ""
+
+#: np.php:843 np.php:931 np.php:1026 np.php:1202 npcalls.php:1657
+msgid "Close"
+msgstr ""
+
+#: np.php:185
+#, php-format
+msgid ""
+"Consider swap to PCI DSS certified HolestPay provider system/HolestPay "
+"plugin %s if you want to have card input on your checkout page, "
+"subscriptions and more..."
+msgstr ""
+
+#: fields.php:527
+msgid "Control fiscal receipt in mails sent to customer (billing email)"
+msgstr ""
+
+#: fields.php:76
+msgid "Conversion rate correction in %"
+msgstr ""
+
+#: fields.php:78
+msgid ""
+"Conversion rate is accured from the public service. If you need to adapt it "
+"enter correction in %"
+msgstr ""
+
+#: fiscalization.php:2099
+msgid "Copy receipt"
+msgstr ""
+
+#: fiscalization.php:925 fiscalization.php:929
+msgid "Could not generate receipt PDF"
+msgstr ""
+
+#: npcalls.php:796 npcalls.php:1237 npcalls.php:1300 npcalls.php:1371
+msgid "Could not run transaction"
+msgstr ""
+
+#: fiscalization.php:1199
+msgid "Cound not create"
+msgstr ""
+
+#: fiscalization.php:1223
+msgid "Cound not write"
+msgstr ""
+
+#: np.php:1296
+msgid "Count not execute transaction"
+msgstr ""
+
+#: fiscalization.php:95
+msgid "Create fiscal receipt (if not created)"
+msgstr ""
+
+#: np.php:2668
+msgid "Credit Card Number: "
+msgstr ""
+
+#: fiscalization.php:2579
+msgid "Curl error"
+msgstr ""
+
+#: np.php:2673
+msgid "CVC2/CVV2 Number: "
+msgstr ""
+
+#: np.php:2016
+msgid ""
+"Data loss, possible due local 302 redirect. Shop did not receive valid "
+"transaction outcome!"
+msgstr ""
+
+#: np.php:1921
+msgid ""
+"Data loss, possible due local redirect. Shop did not receive valid "
+"transaction outcome!"
+msgstr ""
+
+#: fiscalization_listing.php:377
+msgid "Date/Time From"
+msgstr ""
+
+#: fiscalization_listing.php:379
+msgid "Date/Time To"
+msgstr ""
+
+#: fields.php:416
+msgid "Debug"
+msgstr ""
+
+#: np.php:1086
+msgid "Declined, amount"
+msgstr ""
+
+#: npcalls.php:1685
+msgid "default"
+msgstr ""
+
+#: fields.php:59
+msgid "Description:"
+msgstr ""
+
+#: fields.php:455
+msgid "DEVELOPMENT"
+msgstr ""
+
+#: fields.php:451
+msgid ""
+"DEVELOPMENT - fictive receipts are generated | LIVE - VPFR/ESIR is "
+"configured for your company and it is called normaly"
+msgstr ""
+
+#: fields.php:203
+#, php-format
+msgid ""
+"Direct card transmission requires PCI DSS sertificate. You can use HolestPay "
+"plugin instead of certifying your site. Swap to PCI DSS certified HolestPay "
+"payment system %s if you want to have card input on your checkout page, "
+"subscriptions and more..."
+msgstr ""
+
+#: fields.php:418
+msgid "Do not tick this unless instructed by Holest support"
+msgstr ""
+
+#: fields.php:256
+msgid ""
+"Do not use this if you use instalments. Tick this to auto-submit payment "
+"POST request (this enables no user click requirement on \"PAY FOR ORDER\" "
+"page)"
+msgstr ""
+
+#: fiscalization.php:37
+msgid "Download as PDF"
+msgstr ""
+
+#: npcalls.php:1661
+msgid "Download PDF"
+msgstr ""
+
+#: npcalls.php:1662
+msgid "E-mail PDF to customer"
+msgstr ""
+
+#: fiscalization.php:500
+msgid "E-mailed receipt"
+msgstr ""
+
+#: fields.php:30
+msgid "Enable"
+msgstr ""
+
+#: fields.php:425
+msgid "Enable FISCALIZATION add-on (Republic of Serbia only)"
+msgstr ""
+
+#: fields.php:427
+msgid ""
+"Enable the integrated ESIR/VPFR on website that enables automatic or manual "
+"creation of fiscal receipts for orders"
+msgstr ""
+
+#: fields.php:236
+msgid "Enabled instalment plans"
+msgstr ""
+
+#: fields.php:579
+msgid "Enter \"API key\" or \"UID\" or \"Item Purchase Code(for Envato)\""
+msgstr ""
+
+#: fiscalization.php:321
+#, php-format
+msgid "enter %s"
+msgstr ""
+
+#: fields.php:238
+msgid ""
+"Enter comma separated list of available payment by instalments months like 2,"
+"3:80,6:120 meaning there is option to pay with 2 instalments or 3 "
+"instalments if total is bigger than 80 or 6 instalments if total is bigger "
+"than 120."
+msgstr ""
+
+#: fields.php:96
+msgid ""
+"Enter merchant id from Virtual Terminal backend (provided by bank system)."
+msgstr ""
+
+#: fields.php:553
+msgid "enter order meta key"
+msgstr ""
+
+#: fields.php:560
+msgid "Enter PIB you will use for fiscalization add-on"
+msgstr ""
+
+#: fiscalization.php:2064
+msgid "enter prefix:tax_no"
+msgstr ""
+
+#: fiscalization.php:696
+msgid ""
+"Enter receipt recipients emails. Use comma to separate multiple email "
+"addresses"
+msgstr ""
+
+#: fields.php:400
+msgid ""
+"Enter secret key. You can create site and secret key here: https://www."
+"google.com/recaptcha/admin/create"
+msgstr ""
+
+#: fields.php:391
+msgid ""
+"Enter site key. You can create site and secret key here: https://www.google."
+"com/recaptcha/admin/create"
+msgstr ""
+
+#: fields.php:136
+msgid ""
+"Enter Store Key you did set on the bank merchant portal under Administration-"
+">Store Key. Store key must be complicated!!! Good example: S@3a54T6x-2-3-"
+"XXxkQ#ert_X"
+msgstr ""
+
+#: fields.php:139
+msgid "enter store key you generated on bank portal"
+msgstr ""
+
+#: fields.php:176
+msgid "enter timeout in sec"
+msgstr ""
+
+#: fields.php:55
+msgid "enter title"
+msgstr ""
+
+#: fields.php:86
+msgid ""
+"Enter two letter lowercase code for language to be used on gateway page. "
+"Leave empty to use WP current locale."
+msgstr ""
+
+#: fields.php:112
+msgid "Enter your API user/merchant password."
+msgstr ""
+
+#: fields.php:104
+msgid ""
+"Enter your API user/merchant user name. You can use master account but it's "
+"recommended you create API user for this purphose form bank portal."
+msgstr ""
+
+#: np.php:786 np.php:869 np.php:959 np.php:1045
+msgid ""
+"ERROR: Could not comminacate with the gateway API. Check API user "
+"username/password or if maybe api account is locked out."
+msgstr ""
+
+#: fiscalization.php:816 fiscalization.php:986
+msgid "ERROR: Order not found"
+msgstr ""
+
+#: fiscalization.php:848 fiscalization.php:995
+msgid "ERROR: Receipt not found"
+msgstr ""
+
+#: fiscalization.php:812 fiscalization.php:982
+msgid "ERROR: receipt number not provided"
+msgstr ""
+
+#: fiscalization.php:855
+msgid "ERROR:bad data for pdf creation"
+msgstr ""
+
+#: np.php:2669
+msgid "Expiration Date (MM/YY): "
+msgstr ""
+
+#: fields.php:317
+msgid "Explicit cancel payment url"
+msgstr ""
+
+#: fields.php:299
+msgid "Explicit payment return url (result will be displayed by force)"
+msgstr ""
+
+#: fields.php:301
+msgid ""
+"Explicitly define customer after-payment return url to inject output by "
+"force!"
+msgstr ""
+
+#: fiscalization_listing.php:398
+msgid "Export"
+msgstr ""
+
+#: fiscalization.php:1412
+msgid "Fiscal add-on not configured!"
+msgstr ""
+
+#: fiscalization_listing.php:13 fiscalization_listing.php:14
+msgid "Fiscal documents"
+msgstr ""
+
+#: fiscalization_listing.php:480
+msgid "Fiscal documents for "
+msgstr ""
+
+#: fiscalization_listing.php:373
+msgid "Fiscal documents listing"
+msgstr ""
+
+#: fiscalization.php:86
+msgid "FISCALIZATION"
+msgstr ""
+
+#: fields.php:461
+msgid "FISCALIZATION automation"
+msgstr ""
+
+#: fields.php:478
+msgid "FISCALIZATION automation exclude roles"
+msgstr ""
+
+#: fields.php:489
+msgid "FISCALIZATION automation in backend"
+msgstr ""
+
+#: fields.php:511
+msgid ""
+"FISCALIZATION automation: auto create refund receipt for refunded orders (if "
+"possible - BuyerTin exists)"
+msgstr ""
+
+#: fields.php:448
+msgid "FISCALIZATION mode"
+msgstr ""
+
+#: fields.php:558
+msgid "FISCALIZATION TAX NO (PIB)"
+msgstr ""
+
+#: fields.php:548
+msgid ""
+"FISCALIZATION: Order billing/shipping metafieled for Buyer Id/Tax ID (like "
+"PIB or JMBG). Must start with billing_"
+msgstr ""
+
+#: fields.php:524
+msgid "FISCALIZATION: receipt emails"
+msgstr ""
+
+#: fields.php:538
+msgid ""
+"FISCALIZATION: what should be used for the GTIN (id is fallback/default)"
+msgstr ""
+
+#: fields.php:567
+msgid ""
+"Footer branding template. If you would like to set other images create new "
+"folder based on one of existing template folders under (plugin_dir)"
+"/footer_branding/ "
+msgstr ""
+
+#: fields.php:473
+msgid "for all orders"
+msgstr ""
+
+#: fiscalization.php:2071 npcalls.php:1678
+msgid ""
+"For the cancelation document, indentification must be '10:your-tax-number' "
+"instead of actual buyer identification!"
+msgstr ""
+
+#: fields.php:117
+msgid "Form submit URL"
+msgstr ""
+
+#: fields.php:119
+msgid ""
+"Form submit URL for form submit, make sure to put production url (example: "
+"https://activa.eway2pay.com/fim/est3Dgate) for real store, not test "
+"(provided by bank system)."
+msgstr ""
+
+#: fiscalization_listing.php:383
+msgid "Group by orders"
+msgstr ""
+
+#: fields.php:435
+msgid ""
+"Handle FISCALIZATION for all other payment methods (manual interface is "
+"always available)"
+msgstr ""
+
+#: fields.php:37
+msgid "Hide for customers"
+msgstr ""
+
+#. Author of the plugin
+msgid "HOLEST E-COMMERCE, HOLEST ENGINEERING"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://holest.com"
+msgstr ""
+
+#: fiscalization.php:306
+msgid "I need a fiscal receipt"
+msgstr ""
+
+#: fields.php:373
+msgid "If customer clicks \"Cancel\" button on HPP page cancel order"
+msgstr ""
+
+#: fields.php:308
+msgid ""
+"If explicit payment return url is set, then proceed to regular thank-you "
+"page after seconds"
+msgstr ""
+
+#: fields.php:464
+msgid ""
+"If Manually initiated only is selected then you need to run it from order "
+"edit page in admin by manually clicking on action."
+msgstr ""
+
+#: fields.php:469
+msgid "If Serbia is a billing country"
+msgstr ""
+
+#: fields.php:471
+msgid "If Serbia is a billing or a shipping country"
+msgstr ""
+
+#: fields.php:470
+msgid "If Serbia is a shipping country"
+msgstr ""
+
+#: fields.php:40
+msgid ""
+"If turned on you will see method only when signed in to site as administrator"
+msgstr ""
+
+#: fields.php:514
+msgid ""
+"If Yes is selected and there is fiscal bill for order, then refund receipt "
+"create action will be executed."
+msgstr ""
+
+#: fields.php:310
+msgid ""
+"If you set above filed you can here set number of seconds to wait until "
+"return to normal thank you page"
+msgstr ""
+
+#: fields.php:409
+msgid ""
+"If you want to force plugin use certain language set language tag here "
+"(sr_RS, hr_HR, bs_BA, it_IT, mk_MK...) , otherwise leave it empty"
+msgstr ""
+
+#: fields.php:382
+msgid ""
+"If your site does not meet the security requirements you can enable the "
+"plugin's internal reCAPTCHA v3."
+msgstr ""
+
+#: fields.php:283
+msgid ""
+"If your theme does not output required order details you can enable this "
+"option to output order printout on thankyou page."
+msgstr ""
+
+#: fields.php:179
+msgid "Include \"Bill To\" info in payment request"
+msgstr ""
+
+#: fields.php:532
+msgid "Include in WC mails"
+msgstr ""
+
+#: fields.php:290
+msgid "Include order details in transaction e-mail"
+msgstr ""
+
+#: fields.php:281
+msgid "Include order details on thankyou page"
+msgstr ""
+
+#: np.php:1467
+msgid "Insert API key so you can activate your product."
+msgstr ""
+
+#: fields.php:245
+msgid "Insert installmentonHPP = YES in POST request"
+msgstr ""
+
+#: fields.php:570
+msgid "Insert on-hand footer branding"
+msgstr ""
+
+#: np.php:1727 np.php:1751
+msgid "Instalment"
+msgstr ""
+
+#. Name of the plugin
+msgid "Intesa Nestpay WooCommerce Plugin"
+msgstr ""
+
+#: fiscalization.php:2095 npcalls.php:1664 fiscalization_listing.php:420
+msgid "Invoice type"
+msgstr ""
+
+#: fiscalization.php:480 npcalls.php:1778
+msgid "Issue fiscal advance"
+msgstr ""
+
+#: fiscalization.php:479 npcalls.php:1771
+msgid "Issue fiscal proforma"
+msgstr ""
+
+#: fiscalization.php:482
+msgid "Issue fiscal refund"
+msgstr ""
+
+#: npcalls.php:1790
+msgid "Issue fiscal refund receipt"
+msgstr ""
+
+#: fiscalization.php:481 npcalls.php:1784
+msgid "Issue fiscal sale"
+msgstr ""
+
+#: fiscalization.php:2131
+msgid "Issue receipt"
+msgstr ""
+
+#: fiscalization.php:2131
+msgid "Issue refund"
+msgstr ""
+
+#: fiscalization.php:2048
+msgid "It seams bill is payed, maybe you want to do sale instead?"
+msgstr ""
+
+#: fiscalization.php:1983
+msgid "Item"
+msgstr ""
+
+#: fields.php:84
+msgid "Language code"
+msgstr ""
+
+#: fields.php:313
+msgid "leave empty for no effect or set number of seconds"
+msgstr ""
+
+#: fields.php:412
+msgid "leave empty for no override"
+msgstr ""
+
+#: fields.php:322
+msgid "leave empty for return to cart page"
+msgstr ""
+
+#: fields.php:456
+msgid "LIVE"
+msgstr ""
+
+#: fields.php:468
+msgid "Manually initiated only (interactive)"
+msgstr ""
+
+#: fields.php:247
+msgid "May be required if you are sending instalments data to payment page"
+msgstr ""
+
+#: fields.php:94
+msgid "Merchant ID"
+msgstr ""
+
+#: np.php:2696
+msgid "months"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Nestpay is payment gateway system widely used by banks in the Adriatic "
+"region. This WooCommerce plugin allows to connect to all Banks using the "
+"NestPay system. Ovaj softver je vlasnistvo HOLEST E-COMMERCE D.O.O. https:"
+"//holest.com (prenešeno od HOLEST ENGINEERING-a). Neovlašćenim korišćenjem "
+"ovog softver-a podležete riziku od zakonske kazne."
+msgstr ""
+
+#: np.php:1648
+msgid "NESTPAY: Can not load order "
+msgstr ""
+
+#: fiscalization.php:376 fields.php:45 fields.php:443 fields.php:519
+#: fields.php:533
+msgid "No"
+msgstr ""
+
+#: fields.php:262
+msgid "No capture and void e-mail"
+msgstr ""
+
+#: fiscalization.php:2653
+msgid "No fiscal documents created"
+msgstr ""
+
+#: np.php:2683
+msgid "No instalments"
+msgstr ""
+
+#: np.php:1291
+msgid "No response from gateway check you API parameters!"
+msgstr ""
+
+#: npcalls.php:1674
+msgid ""
+"No selected orders could be processed in this way. Please review each of the "
+"selected orders manually."
+msgstr ""
+
+#: fields.php:271
+msgid "No transaction e-mail"
+msgstr ""
+
+#: fields.php:12
+msgid "Non-authenticated users"
+msgstr ""
+
+#: fiscalization.php:2097
+msgid "Normal"
+msgstr ""
+
+#: np.php:2531
+msgid "Not specified"
+msgstr ""
+
+#: fields.php:21
+msgid "Not used"
+msgstr ""
+
+#: fields.php:167
+msgid "Number of days (0.5 - 12h, 0.33 - 8h)"
+msgstr ""
+
+#: fields.php:334
+msgid "On transaction Post-Authorise (Capture) order status"
+msgstr ""
+
+#: fields.php:343
+msgid "On transaction VOID order status"
+msgstr ""
+
+#: fields.php:361
+msgid "On-payment failed order status"
+msgstr ""
+
+#: fields.php:325
+msgid "On-payment success order status"
+msgstr ""
+
+#: fiscalization_listing.php:384
+msgid "Only last in order"
+msgstr ""
+
+#: fields.php:472
+msgid "Only on demand - when a customer requests it on checkout"
+msgstr ""
+
+#: npcalls.php:1871 npcalls.php:1958 npcalls.php:1958
+msgid "Open merchant virtual terminal..."
+msgstr ""
+
+#: fiscalization.php:1019 npcalls.php:1655 fiscalization_listing.php:412
+msgid "Order"
+msgstr ""
+
+#: fiscalization.php:1970
+#, php-format
+msgid "Order %s-RSD exchange rate:"
+msgstr ""
+
+#: np.php:1710 np.php:1740
+msgid "Order id"
+msgstr ""
+
+#: np.php:701
+msgid "Order ID (transaction)"
+msgstr ""
+
+#: fiscalization.php:1405 fiscalization.php:2677
+msgid "Order not found"
+msgstr ""
+
+#: np.php:1709 np.php:1739
+msgid "Order number/key"
+msgstr ""
+
+#: fields.php:407
+msgid "Override language"
+msgstr ""
+
+#: np.php:2741
+msgid "Pay"
+msgstr ""
+
+#: fields.php:62
+msgid "Pay securely by Credit or Debit Card via Banca Intesa"
+msgstr ""
+
+#: fields.php:53
+msgid "Pay with payment card"
+msgstr ""
+
+#: np.php:875
+msgid "Payment captured (Post-Authorizated)"
+msgstr ""
+
+#: np.php:921
+msgid "Payment could not be captured (Pre-Authorizated)"
+msgstr ""
+
+#: np.php:1016
+msgid "Payment could not be refunded"
+msgstr ""
+
+#: np.php:833
+msgid "Payment could not be void-ed (canceled)"
+msgstr ""
+
+#: np.php:709
+msgid "Payment currency code"
+msgstr ""
+
+#: fiscalization.php:2105
+msgid "Payment method"
+msgstr ""
+
+#: np.php:965 np.php:1312
+msgid "Payment refunded"
+msgstr ""
+
+#: np.php:703 np.php:1712 np.php:1742
+msgid "Payment Status"
+msgstr ""
+
+#: np.php:1040
+msgid "Payment status"
+msgstr ""
+
+#: np.php:1705 np.php:2143
+msgid "Payment successful"
+msgstr ""
+
+#: np.php:792
+msgid "Payment void-ed (canceled)"
+msgstr ""
+
+#: fields.php:561
+msgid "PIB - Republic of Serbia, 000000000 - for test"
+msgstr ""
+
+#: fiscalization.php:684 fiscalization.php:692
+msgid "Please select a receipt"
+msgstr ""
+
+#: npcalls.php:1675
+msgid "Please select orders first!"
+msgstr ""
+
+#: np.php:2800
+msgid "Please wait..."
+msgstr ""
+
+#: fields.php:577
+msgid "Plugin \"API key\" or \"UID\" or \"Item Purchase Code\""
+msgstr ""
+
+#: np.php:1082
+msgid "Pre-Authorizated (reserved), still not captured, amount"
+msgstr ""
+
+#: fields.php:149
+msgid "Pre-Authorization (reserve money on CC)"
+msgstr ""
+
+#: fields.php:156
+msgid ""
+"Pre-Authorization is money reservation. Depending on your business needs you "
+"may decide if you want to consider order as paid in this moment or not. Note "
+"for fiscalization - to trigger fiscal document creation order must be marked "
+"as paid."
+msgstr ""
+
+#: fields.php:164
+msgid ""
+"Prevent case of missing to Post-Authorize(Capture) Pre-Authorized payments. "
+"Good value is 7 becuse 1 week should be eaught for you to know if you can "
+"order deliver or not. If batch option is activated at the bank side then "
+"there is no sence to set value greather than 0.99."
+msgstr ""
+
+#: npcalls.php:1656
+msgid "Print"
+msgstr ""
+
+#: fiscalization.php:2098
+msgid "Pro Forma"
+msgstr ""
+
+#: fields.php:66
+msgid "probaby must be domestic"
+msgstr ""
+
+#: fiscalization.php:1984
+msgid "Quantity"
+msgstr ""
+
+#: npcalls.php:1906
+msgid "Re-Query status from gateway server"
+msgstr ""
+
+#: np.php:183
+msgid "Read F.A.Q., instructions and videos ..."
+msgstr ""
+
+#: npcalls.php:1805 npcalls.php:1906
+msgid "Read status"
+msgstr ""
+
+#: fields.php:398
+msgid "reCAPTCHA v3 secret key"
+msgstr ""
+
+#: fields.php:389
+msgid "reCAPTCHA v3 site key"
+msgstr ""
+
+#: npcalls.php:1663 fiscalization_listing.php:415
+msgid "Receipt time"
+msgstr ""
+
+#: fiscalization.php:36
+msgid "Receipt verification link..."
+msgstr ""
+
+#: npcalls.php:1668 fiscalization_listing.php:417
+msgid "Ref."
+msgstr ""
+
+#: fiscalization.php:2093
+msgid "Reference Document Number"
+msgstr ""
+
+#: fiscalization.php:2539
+msgid "Referent document number is required for"
+msgstr ""
+
+#: fiscalization.php:2093
+msgid "referent receipt tax invoice number"
+msgstr ""
+
+#: fields.php:171
+msgid "Refresh time"
+msgstr ""
+
+#: np.php:1191 npcalls.php:1652 npcalls.php:1830 npcalls.php:1841
+msgid "Refund"
+msgstr ""
+
+#: np.php:1189
+msgid "Refund amount (in payment currency)"
+msgstr ""
+
+#: np.php:1338
+msgid "Refund operation did not succeed (maybe you need to run VOID instead)."
+msgstr ""
+
+#: fiscalization.php:2122
+msgid "Refund receipt"
+msgstr ""
+
+#: npcalls.php:1658
+msgid "Refunded"
+msgstr ""
+
+#: np.php:966
+msgid "Refunded amount"
+msgstr ""
+
+#: np.php:1066
+msgid "Refunded, amount"
+msgstr ""
+
+#: fiscalization.php:2026
+msgid "Remove"
+msgstr ""
+
+#: fiscalization.php:2571
+msgid "Response error"
+msgstr ""
+
+#: npcalls.php:1651
+msgid "Sale"
+msgstr ""
+
+#: fiscalization.php:2121
+msgid "Sale receipt"
+msgstr ""
+
+#: np.php:1074
+msgid "Sale success, amount"
+msgstr ""
+
+#: fiscalization_listing.php:395
+msgid "search..."
+msgstr ""
+
+#: fields.php:403
+msgid "secret key"
+msgstr ""
+
+#: fields.php:69
+msgid "Select Currency. Usualy you have to use your bussness domestic currecy."
+msgstr ""
+
+#: fields.php:438
+msgid ""
+"Select fiscalization scope. This plugin can handle the order fiscalization "
+"even for other payment methods."
+msgstr ""
+
+#: fields.php:224
+msgid "Select image for bank logo"
+msgstr ""
+
+#: fields.php:231
+msgid "Select image for CC logo"
+msgstr ""
+
+#: fields.php:328
+msgid "Select order status for completed payment."
+msgstr ""
+
+#: fields.php:364
+msgid "Select order status for failed payment."
+msgstr ""
+
+#: fields.php:337
+msgid "Select order status for order after Post-Authorisation."
+msgstr ""
+
+#: fields.php:346
+msgid "Select order status for order after VOID."
+msgstr ""
+
+#: fields.php:212
+msgid "Select store type"
+msgstr ""
+
+#: fields.php:145
+msgid ""
+"Select transaction type. If you use Pre-Authorization money will only be "
+"reserved for you on the customer CC unti you do the Post-Authorization "
+"(Capure) to transfer a mony to your bank account or a VOID transaction to "
+"cancel reservarion and relese the customer money. If you use Authorization "
+"mony is transfered immediatlly."
+msgstr ""
+
+#: fields.php:531
+msgid "Send in separate e-mail"
+msgstr ""
+
+#: fiscalization.php:1018
+#, php-format
+msgid "sent you a fiscal receipt %s"
+msgstr ""
+
+#: fields.php:90
+msgid "Set explicitly 2 letter language code. Current automatic: "
+msgstr ""
+
+#: fields.php:304
+msgid ""
+"Set only if you have problem!!! Url that customer sees after payment before "
+"\"?\" character"
+msgstr ""
+
+#: fields.php:154
+msgid "Set order as paid on Pre-Authorization"
+msgstr ""
+
+#: fields.php:181
+msgid "Set to \"Yes\" to include \"Bill To\" data in request."
+msgstr ""
+
+#: np.php:1748
+msgid "Shopper details"
+msgstr ""
+
+#: fields.php:394
+msgid "site key"
+msgstr ""
+
+#: fields.php:541
+msgid "Specify what product/variant meta key should be used as GTIN"
+msgstr ""
+
+#: np.php:707 np.php:1714 np.php:1744
+msgid "Status code for the 3D transaction"
+msgstr ""
+
+#: fields.php:134
+msgid "Store key"
+msgstr ""
+
+#: fields.php:209
+msgid "Store type"
+msgstr ""
+
+#: fiscalization_listing.php:397
+msgid "Sync"
+msgstr ""
+
+#: fiscalization.php:1986
+msgid "Tax label"
+msgstr ""
+
+#: fiscalization.php:1937
+msgid "Tax label mapping misses configuration"
+msgstr ""
+
+#: fiscalization.php:1913
+msgid "Tax label mapping not configured"
+msgstr ""
+
+#: npcalls.php:1666 fiscalization_listing.php:416
+msgid "Tax. Invoice no."
+msgstr ""
+
+#: np.php:2737
+msgid ""
+"Thank you for your order, please click the button below to proceed to the "
+"HPP payment page."
+msgstr ""
+
+#: npcalls.php:1659
+msgid "The e-mail has been sent to:"
+msgstr ""
+
+#: np.php:495
+msgid "The order was cancelled due to no payment from customer."
+msgstr ""
+
+#: np.php:1735 np.php:2223
+msgid "The payment has failed."
+msgstr ""
+
+#: np.php:1733 np.php:2221
+msgid "The payment has failed. Your credit card is not charged."
+msgstr ""
+
+#: np.php:602
+#, php-format
+msgid ""
+"There are %d non-canceled orders pre-authorizated more than 5 days ago whose "
+"payments have not been captured/post-authorized yet (orange blinking). Safe "
+"period to do post-authorization is 7 days. Make sure you do capture/post-"
+"authorize(transfer of money to your bank account) on time or do VOID action "
+"on them so you don't keep your customer card money trapped. When you do a "
+"capture/post-authorize action you can also capture part of full amount if "
+"you don't have all of the items available."
+msgstr ""
+
+#: fields.php:61
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: fields.php:52
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: np.php:182
+msgid ""
+"This plugin adds credit card payment method to your WP/WooCommerce site "
+"(interacting with banks using the NestPay system which is most widely used "
+"in adriatic region). Required fileds you need to get running are Merchant ID,"
+" Merchant/API User Name, Merchant/API Password, Form submit URL, API URL, "
+"Store Key.<br/><b style=\"color:#aa20e0;\">Make sure CURL and php-curl are "
+"enabled for your web-server. Also make sure your server can query DNS (ping "
+"works in SSH shell)</b>"
+msgstr ""
+
+#: np.php:184
+msgid ""
+"This plugin texts are according to the bank requirements. Some texts that "
+"bank may ask you to correct are in wooCommerce-xx_XX.po files. You can also "
+"use 'Loco Translate' to correct this!"
+msgstr ""
+
+#: npcalls.php:1670
+msgid "This type of fiscal receipt requires Buyer TIN"
+msgstr ""
+
+#: npcalls.php:1672
+msgid "This type of fiscal receipt requires referent document number"
+msgstr ""
+
+#: fields.php:173
+msgid ""
+"Timout before returning user to site during checkout. 15 would be ok value."
+msgstr ""
+
+#: fiscalization_listing.php:418
+msgid "TIN"
+msgstr ""
+
+#: fields.php:50
+msgid "Title"
+msgstr ""
+
+#: np.php:184
+msgid "To make any text correction in plugin use"
+msgstr ""
+
+#: fiscalization.php:2036 npcalls.php:1667 fiscalization_listing.php:423
+msgid "Total"
+msgstr ""
+
+#: fiscalization.php:1985
+msgid "Total (RSD)"
+msgstr ""
+
+#: np.php:2730
+msgid "Total in payment currency"
+msgstr ""
+
+#: fiscalization.php:2100
+msgid "Training"
+msgstr ""
+
+#: np.php:706 np.php:1716 np.php:1746
+msgid "Transaction Date"
+msgstr ""
+
+#: np.php:705
+msgid "Transaction ID"
+msgstr ""
+
+#: np.php:1711 np.php:1741
+msgid "Transaction id"
+msgstr ""
+
+#: np.php:1708 np.php:1738
+msgid "Transaction info"
+msgstr ""
+
+#: np.php:720
+msgid "Transaction Outcome"
+msgstr ""
+
+#: fiscalization.php:2119
+msgid "Transaction receipt type"
+msgstr ""
+
+#: np.php:704 np.php:1713 np.php:1743
+msgid "Transaction Status Code"
+msgstr ""
+
+#: npcalls.php:1665 fields.php:142 fiscalization_listing.php:385
+#: fiscalization_listing.php:421
+msgid "Transaction type"
+msgstr ""
+
+#: np.php:311 np.php:312 npcalls.php:1582 npcalls.php:1582 npcalls.php:1583
+msgid "TRANSLATE_PAYMENT_DESCRIPTION"
+msgstr ""
+
+#: np.php:307 np.php:308 npcalls.php:1578 npcalls.php:1578 npcalls.php:1579
+msgid "TRANSLATE_PAYMENT_TITLE"
+msgstr ""
+
+#: fields.php:273
+msgid "Turns off transaction email"
+msgstr ""
+
+#: fields.php:264
+msgid "Turns off transaction email for capture and VOID transactions"
+msgstr ""
+
+#: npcalls.php:1671
+msgid "Type of Buyer TIN is not specified with prefix"
+msgstr ""
+
+#: np.php:69
+msgid "Unfortunately the payment has failed. Please try agian."
+msgstr ""
+
+#: npcalls.php:1660
+msgid "Unknown error"
+msgstr ""
+
+#: fields.php:319
+msgid ""
+"URL to return a client to when he clicks the Cancel button on the CC entry "
+"page. If empty it will default to the cart page."
+msgstr ""
+
+#: fields.php:27
+msgid ""
+"Use combination of 12-20 letters small|big and numbers. There are known "
+"problems with special characters!!!"
+msgstr ""
+
+#: fields.php:66
+msgid "Use currency"
+msgstr ""
+
+#: fields.php:380
+msgid "Use plugin internal reCAPTCHA v3"
+msgstr ""
+
+#: npcalls.php:1796
+msgid "View fiscal receipt"
+msgstr ""
+
+#: npcalls.php:1653
+msgid "View receipt log"
+msgstr ""
+
+#: fiscalization_listing.php:57
+msgid "View/Synchronise fiscal documents..."
+msgstr ""
+
+#: npcalls.php:1851 npcalls.php:1926 npcalls.php:1940 npcalls.php:1949
+msgid "VOID (release money)"
+msgstr ""
+
+#: npcalls.php:1926 npcalls.php:1940 npcalls.php:1949
+msgid "VOID (relese reserved mony on customer credit card)"
+msgstr ""
+
+#: np.php:1078
+msgid "Voided (canceled), amount"
+msgstr ""
+
+#: fiscalization.php:1320
+msgid "WARNING: bad document data returned"
+msgstr ""
+
+#: npcalls.php:1669
+msgid "was not found as Tax Invoice No. in previous receipts for this order"
+msgstr ""
+
+#: np.php:2751
+msgid ""
+"We were unable to verify basic security requirements on your side. Please "
+"try later or width different device. You may also contact us directly."
+msgstr ""
+
+#: fields.php:551
+msgid ""
+"When a company is buying something they usualy want to have tax ID (PIB) on "
+"the fiscal receipt so they can file receipt for the tax return. If site does "
+"not have this meta in order billing/shipping metafields it will then be "
+"added to checkout and order info. Clear value if you do not need it."
+msgstr ""
+
+#: fiscalization.php:375 fields.php:32 fields.php:44 fields.php:157
+#: fields.php:165 fields.php:182 fields.php:202 fields.php:248 fields.php:257
+#: fields.php:265 fields.php:274 fields.php:284 fields.php:293 fields.php:374
+#: fields.php:383 fields.php:419 fields.php:428 fields.php:442 fields.php:492
+#: fields.php:518
+msgid "Yes"
+msgstr ""
+
+#: fields.php:292
+msgid ""
+"You can enable this option to include order details in transaction e-mail"
+msgstr ""
+
+#: fields.php:481
+msgid "You can exclude users belonging to roles from fiscalization automation."
+msgstr ""
+
+#: npcalls.php:1673
+msgid "you have to review and process fiscal receipts manually"
+msgstr ""
+
+#: fiscalization.php:320
+#, php-format
+msgid "Your %s (for fiscal receipt)"
+msgstr ""
+
+#: np.php:1703 np.php:2141
+msgid "Your credit card has been successfully charged"
+msgstr ""
+
+#: fiscalization.php:38
+msgid "Your fiscal receipt"
+msgstr ""
