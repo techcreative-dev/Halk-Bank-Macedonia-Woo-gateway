@@ -28,3 +28,4 @@ In WooCommerce Checkout section you'll see plugin options after activation.
 Settings note: It is recommended that you use username/pass of API account you can create from the bank portal instead of master username/pass.
 
 Thank you for using TechCreative!
+https://techcreative.dev
